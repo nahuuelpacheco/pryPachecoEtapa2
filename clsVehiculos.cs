@@ -19,8 +19,8 @@ namespace pryPachecoEtapa2
         {
             pctAuto = new PictureBox(); //tendra imagen
             pctAuto.SizeMode = PictureBoxSizeMode.StretchImage;//estara estirada
-            pctAuto.Width = 200;//ancho
-            pctAuto.Height = 200;//largo
+            pctAuto.Width = 100;//ancho
+            pctAuto.Height = 100;//largo
             pctAuto.BackColor = Color.Transparent;//fondo transparente
             string ruta = Path.Combine(Application.StartupPath, "..", "..", "Resources", "auto.png");//ruta
             pctAuto.ImageLocation = ruta;//su imagen corresponde a la ruta anteriormente dicha
@@ -29,8 +29,8 @@ namespace pryPachecoEtapa2
         {
             pctAvion = new PictureBox();
             pctAvion.SizeMode = PictureBoxSizeMode.StretchImage;
-            pctAvion.Width = 200;
-            pctAvion.Height = 200;
+            pctAvion.Width = 100;
+            pctAvion.Height = 100;
             pctAvion.BackColor = Color.Transparent;
             string ruta = Path.Combine(Application.StartupPath, "..", "..", "Resources", "avion.png");
             pctAvion.ImageLocation = ruta;
@@ -39,8 +39,8 @@ namespace pryPachecoEtapa2
         {
             pctBarco = new PictureBox();
             pctBarco.SizeMode = PictureBoxSizeMode.StretchImage;
-            pctBarco.Width = 200;
-            pctBarco.Height = 200;
+            pctBarco.Width = 100;
+            pctBarco.Height = 100;
             pctBarco.BackColor = Color.Transparent;
             string ruta = Path.Combine(Application.StartupPath, "..", "..", "Resources", "barco.png");
             pctBarco.ImageLocation = ruta;

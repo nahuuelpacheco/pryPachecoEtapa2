@@ -34,9 +34,9 @@ namespace pryPachecoEtapa2
             // 
             // btnAparecer
             // 
-            this.btnAparecer.Location = new System.Drawing.Point(291, 403);
+            this.btnAparecer.Location = new System.Drawing.Point(34, 403);
             this.btnAparecer.Name = "btnAparecer";
-            this.btnAparecer.Size = new System.Drawing.Size(127, 35);
+            this.btnAparecer.Size = new System.Drawing.Size(623, 35);
             this.btnAparecer.TabIndex = 0;
             this.btnAparecer.Text = "APARECER";
             this.btnAparecer.UseVisualStyleBackColor = true;
@@ -46,9 +46,12 @@ namespace pryPachecoEtapa2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(735, 450);
             this.Controls.Add(this.btnAparecer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmVehiculo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmVehiculo_Load);
             this.ResumeLayout(false);
